@@ -1,0 +1,31 @@
+:root{
+    --azul: #2A4DD0;
+    --verde: #4CA154;
+    --preto:#111729;
+    --cinza-escuro:#223344;
+    --cinza-claro:#909193;
+    --azul-esverdeado:#F2F9FE;
+    --branco:#FFFFFF;
+}
+body{
+    background-color: var(--azul-esverdeado);
+}
+@media screen and (max-width: 660px){
+    .middle , .switch-light{
+        display: none;
+}
+}
+nav{
+    padding: 20px;
+    
+}
+nav ul {
+    list-style: none;
+}
+.picture-floating
+{
+    margin-top: 60px;
+    height: 550px;
+    width: 550px;
+    display: flex;
+}
